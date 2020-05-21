@@ -1,0 +1,127 @@
+body {
+    background-color: powderblue;
+    }
+    h1{
+        color: aquamarine;
+    }
+    p {
+        color: black;
+        border: 1px solid powderblue;
+        padding: 30px;
+    
+      }
+    button {
+        border: none;
+        background-color: green;
+        color: white;
+        padding: 12px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 2px 1px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+      @media screen and (min-width: 400px) {
+        body {
+          background-color: lightgreen;
+        }
+      }
+      
+      @media screen and (min-width: 800px) {
+        body {
+          background-color: lavender;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+      @media screen and (max-width: 992px) {
+        .column {
+          width: 50%;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+      body {
+background-color: powderblue;
+}
+h1{
+    color: aquamarine;
+}
+p {
+    color: black;
+    border: 1px solid powderblue;
+    padding: 30px;
+
+  }
+button {
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lavender;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+  table {
+    width: 100%;
+  }
+  
+  th {
+    height: 50px;
+    text-align: left;
+    vertical-align: bottom;
+
+
+  }
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+  }
+  tr:hover {background-color: #f5f5f5;}
+  tr:nth-child(even) {background-color: #f2f2f2;}

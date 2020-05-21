@@ -1,22 +1,17 @@
 body {
-    background-color: lightblue;
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: orangered;
+background-color: powderblue;
+}
+h1{
+    color: aquamarine;
+}
+p {
+    color: black;
     border: 1px solid powderblue;
     padding: 30px;
 
   }
-  .error {
-    
-    color: blueviolet;
-    margin: 20px;
-    padding: 20px;  
-}
-  button {
+ 
+button {
     border: none;
     background-color: green;
     color: white;
