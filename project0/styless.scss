@@ -1,0 +1,37 @@
+$myFont: Helvetica, sans-serif;
+$myColor: green;
+$myFontSize: 72px;
+$myWidth: 680px;
+$bord: powderblue;
+body {
+    font-family: $myFont;
+    font-size: $myFontSize;
+    color: $myColor;
+    $myColor: red;
+
+h1 {
+      $myColor: green !global;
+      color: $myColor;  
+}
+.button-basic  {
+    border: none;
+    padding: 12px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button-report  {
+    @extend .button-basic;
+    background-color: red;
+  }
+  
+  .button-submit  {
+    @extend .button-basic;
+    background-color: green;
+    color: white;
+  }
