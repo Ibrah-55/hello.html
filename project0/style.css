@@ -13,7 +13,7 @@ p {
  
 button {
     border: none;
-    background-color: green;
+    background-color: lightseagreen;
     color: white;
     padding: 12px 22px;
     text-align: center;
@@ -23,6 +23,9 @@ button {
     margin: 2px 1px;
     transition-duration: 0.4s;
     cursor: pointer;
+  }
+  .primary{
+    background-color: lightslategrey;
   }
   @media screen and (min-width: 400px) {
     body {
